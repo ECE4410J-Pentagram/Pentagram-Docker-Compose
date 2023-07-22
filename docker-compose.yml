@@ -16,3 +16,5 @@ services:
     restart: always
     env_file:
       - secret.env
+    ports:
+      - 5432:5432
